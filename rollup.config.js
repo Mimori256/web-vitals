@@ -28,6 +28,7 @@ const configurePlugins = ({module}) => {
             targets: [
               // Match browsers supporting "Baseline Widely Available" features:
               // https://web.dev/baseline
+              // https://web.dev/articles/use-baseline-with-browserslist
               'baseline widely available',
             ],
           },
