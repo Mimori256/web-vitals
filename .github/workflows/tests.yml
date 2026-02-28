@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v6
       - name: NPM install
-        run: npm install
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Run unit tests
@@ -29,7 +29,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v6
       - name: NPM install
-        run: npm install
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Run server
@@ -44,7 +44,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v6
       - name: NPM install
-        run: npm install
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Run server
@@ -59,7 +59,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v6
       - name: NPM install
-        run: npm install
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Run server
